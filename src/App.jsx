@@ -42,7 +42,7 @@ function App() {
           />
           <button 
           onClick={copyPassword}
-          className='outline-none bg-blue-700 text-white shrink-0'>copy</button>
+          className='outline-none bg-blue-700 text-white shrink-0 hover:bg-red-600'>copy</button>
         </div>
         <div className='flex text-sm gap-x-4 py-4'>
           <div className='flex items-center gap-x-1'>
